@@ -1,0 +1,207 @@
+:root{
+    font-family: "Segoe UI";
+}
+
+header{
+    display: flex;
+    padding: 0 10px;
+}
+
+#main{
+    border-bottom-color: black;
+}
+
+header h3{
+    transform: translatex(50px);
+}
+
+#pages{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-top: 20px;
+    transform: translateX(68vw);
+}
+
+header a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color .5s ease-in-out;
+}
+
+header .link:hover{
+    border-bottom-color: black;
+}
+
+#nav-button{
+    transform: translateY(-2px) translateX(-2px);
+    padding: 7px 9px;
+    width: 70px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    transition: all .15s ease-in-out; 
+}
+
+.brand{
+    font-family: Quicksand;
+}
+
+main{
+    padding: 10px 50px;
+}
+
+h1{
+    font-weight: 700;
+}
+
+#subh{
+    color: rgba(0, 0, 0, 0.5); 
+}
+
+#part-one{
+    width: 480px;
+}
+
+#part-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 480px;
+    height: 320px;
+    margin-top: 35px;
+}
+
+#part-two img{
+    transform: scale(1.55);
+    border-radius: 5px;
+}
+
+#section-one{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+#section-two{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+#names{
+    display: flex;
+    gap: 20px;
+}
+
+label{
+    font-weight: 500;
+}
+
+#names input{
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: .75px solid gray;
+    width: 200px;
+}
+
+#email-addr{
+    padding: 10px 15px;
+    width: 450px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: .75px solid gray;
+}
+
+textarea{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: .75px solid gray;
+    padding: 10px 15px;
+    font-family: "Segoe UI";
+}
+
+input:focus, textarea:focus{
+    outline: none;
+}
+
+#submit-btn{
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    width: 480px;
+    border-radius: 5px;
+    border: none;
+    transition: all .15s ease;
+}
+
+#sec2-one{
+    width: 450px;
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+footer > div{
+    height: 150px;
+    width: 700px;
+    padding: 10px;
+}
+
+.social{
+    border: .75px solid black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#socials{
+    display: flex;
+    gap: 5px;
+    transform: translateY(50px);
+}
+
+#topics{
+    display: flex;
+    transform: translateX(450px);
+}
+
+#topics > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#topics > div ul{
+    transform: translateX(-21.5px) translateY(-20px);
+}
+
+.part{
+    transform: translateX(40px);
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+#nav-button:hover, #submit-btn:hover{
+    border: 2px solid black;
+    color: black;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+

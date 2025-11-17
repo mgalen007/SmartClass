@@ -1,0 +1,400 @@
+:root{
+    font-family: "Segoe UI";
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(20px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10px;
+    scroll-behavior: smooth;
+    width: 1440px;
+}
+
+#main{
+    border-bottom-color: black;
+}
+
+#best{
+    font-size: 3rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+header{
+    display: flex;
+    transform: translateX(-20px);
+}
+
+header h3{
+    transform: translatex(50px);
+}
+
+button{
+    cursor: pointer;
+}
+
+#pages{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-top: 20px;
+    transform: translateX(68vw);
+}
+
+#nav-button{
+    transform: translateY(-2px) translateX(-2px);
+    padding: 7px 9px;
+    width: 70px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    transition: all .15s ease-in-out; 
+}
+
+html::selection{
+    background: black;
+    color: white;
+}
+
+main{
+    padding: 10px 50px;
+}
+
+#section-one{
+    margin: 10px auto;
+    width: 520px;
+    text-align: center;
+}
+
+#section-one h1{
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+#section-one p{
+    width: 520px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#section-one button{
+    padding: 12.5px 27px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    border: none;
+}
+
+#img1{
+    width: 1360px;
+    height: 150px;
+}
+
+#sec2 > div{
+    width: 453px;
+    height: 320px;
+    padding: 12px;
+}
+
+#sec2{
+    display: flex;
+    gap: 30px;
+    transform: translateX(10px);
+}
+
+.sec2-img{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.sec2-img h1{
+    transform: translateY(-20px);
+    font-size: 5rem;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.h4{
+    font-weight: 600;
+}
+
+#sec2 > div p{
+    transform: translateY(-12.5px);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.h2{
+    font-weight: 600;
+}
+
+p{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#section-three{
+    display: flex;
+    gap: 20px;
+}
+
+#section-three p{
+    transform: translateY(-10px);
+    width: 320px;
+}
+
+#section-three #faqs{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#sec3-btns{
+    text-align: center;
+}
+
+#sec3-btns button{
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#one{
+    border: none;
+    background: black;
+    color: white;
+}
+
+#two{
+    transform: translateX(5px);
+    border: none;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.15);
+    transition: all .15s ease-in-out;
+}
+
+#sec3-div{
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    width: 63vw;
+    height: 445px;
+    transform: translateX(48px) translateY(30px);
+}
+
+div{
+    border-radius: 10px;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+#section-four > div{
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+}
+
+.sec4-img{
+    width: 300px;
+    height: 325px;
+}
+
+.sec4-sub{
+    height: 170px;
+    width: 260px;
+    margin: 12.5px auto 0 auto;
+}
+
+.sub-h{
+    padding: 0 20px;
+}
+
+#testimonials{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#testimonials > div{
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    width: 250px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+#testimonials h4{
+    text-align: center;
+}
+
+.pfp{
+    border: .75px solid black;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.person{
+    display: flex;
+    gap: 7.5px;
+    transform: translateX(20px);
+}
+
+.names{
+    transform: translateY(-20px);
+}
+
+.names p{
+    transform: translateY(-20px) translateX(12px);
+    font-size: 14px;
+}
+
+#section-six{
+    background: rgba(0, 0, 0, 0.05);
+    padding: 15px;
+    width: 92.75vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    transform: translatex(-3.4vw);
+}
+
+#section-six h2{
+    transform: translateX(40px);
+}
+
+#sec6-btns{
+    transform: translateX(63.75vw);
+}
+
+#sec6-one{
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    background: black;
+    color: white;
+}
+
+#sec6-two{
+    border-radius: 5px;
+    padding: 10px 15px;
+    transform: translateX(5px);
+    border: none;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.15);
+    transition: all .15s ease-in-out;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+footer > div{
+    height: 150px;
+    width: 700px;
+    padding: 10px;
+}
+
+.social{
+    border: .75px solid black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+#socials{
+    display: flex;
+    gap: 5px;
+    transform: translateY(50px);
+}
+
+#topics{
+    display: flex;
+    transform: translateX(450px);
+}
+
+#topics > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#topics > div ul{
+    transform: translateX(-21.5px) translateY(-20px);
+}
+
+.part{
+    transform: translateX(40px);
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+.sec4-icon{
+    transform: translateY(20px);
+    height: 130px;
+    width: 130px;
+}
+
+header a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color .5s ease-in-out;
+}
+
+header .link:hover{
+    border-bottom-color: black;
+}
+
+#nav-button:hover, #start:hover, #sec6-one:hover, #one:hover{
+    background: white;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+}
+
+#start, #sec6-one, #one{
+    transition: all .15s ease-in-out;
+}
+
+#two:hover, #sec6-two:hover{
+    background: white;
+    border: 2px solid black;
+}
+
+.brand{
+    font-family: "Quicksand";
+}
+
+.faq{
+    border: .75px solid gray;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    transition: transform .15s ease-out;
+    text-align: center;
+}
+
+.faq:hover{
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.25);
+    transform: scale(1.025);
+}
+
+
+
+
